@@ -34,7 +34,7 @@
 ## 4. Verify Credit Instructions
 ```Can you let me know more about the full moon beach party experience?```
 
-
+```Issue $100 resort credit to contact named Sofia Rodriguez```
 
 
 ## 5. Apex Weather Class
