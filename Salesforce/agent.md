@@ -1,7 +1,7 @@
 # Sign Up for an Org and Install Coral Cloud App  
 
 ## 1. Sign Up for an Agentforce Enabled Developer Edition  
-- Click the link below to sign up:  [Agentforce Developer Edition](https://sforce.co/g4ga4de)  
+- Click the link below to sign up:  [Agentforce Developer Edition](https://sforce.co/workshop1)  
 
 
 
