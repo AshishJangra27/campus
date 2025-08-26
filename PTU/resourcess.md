@@ -55,6 +55,3 @@
 10. **AI ethics & human oversight**
 
 ---
-
-Let me know if you’d like a **learning roadmap**, or a deeper dive into any of these categories, Ashish!
-::contentReference[oaicite:0]{index=0}
