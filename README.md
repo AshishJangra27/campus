@@ -1,7 +1,6 @@
-# campus
+# Campus Schedule  
 
-IIT Kanpur | 7 April 24
-
-SRM | 24 Feb 25
-
-Sharda | 20 March 25
+- **PTU** — 27 August 2024  
+- **IIT Kanpur** — 7 April 2024  
+- **SRM** — 24 February 2025  
+- **Sharda** — 20 March 2025  
