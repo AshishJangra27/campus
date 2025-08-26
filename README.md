@@ -1,4 +1,4 @@
-# Campus Schedule  
+# workshops
 
 | Campus      | Date          |
 |-------------|--------------|
