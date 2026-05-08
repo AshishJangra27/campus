@@ -13,7 +13,13 @@ This project demonstrates how to create a Location Intelligence Agent capable of
 - MCP server integrations
 - Gemini reasoning
 
-The agent helps analyze bakery business opportunities using demographic data, foot traffic, competitor pricing, and location intelligence.
+The agent helps analyze bakery business opportunities using:
+
+- demographic data
+- foot traffic analysis
+- competitor pricing
+- sales forecasting
+- real-world location intelligence
 
 ---
 
@@ -36,23 +42,39 @@ The agent helps analyze bakery business opportunities using demographic data, fo
 2. Create or select a project
 3. Enable billing
 
+### Screenshot
+
+![Create Google Cloud Project](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/a3dd2e6dddc8f691_1920.png)
+
 ---
 
-## Start Cloud Shell
+# 2. Start Cloud Shell
 
-Verify authentication:
+Activate Cloud Shell from the top-right corner.
+
+### Screenshot
+
+![Activate Cloud Shell](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/404e4cce0f23e5c5_1920.png)
+
+---
+
+## Verify Authentication
 
 ```bash
 gcloud auth list
 ```
 
-Verify project:
+---
+
+## Verify Active Project
 
 ```bash
 gcloud config get project
 ```
 
-Export project ID:
+---
+
+## Export Project ID
 
 ```bash
 export PROJECT_ID=$(gcloud config get project)
@@ -60,7 +82,7 @@ export PROJECT_ID=$(gcloud config get project)
 
 ---
 
-# 2. Clone Repository
+# 3. Clone Repository
 
 Clone repository:
 
@@ -76,7 +98,7 @@ cd mcp/examples/launchmybakery
 
 ---
 
-# 3. Authenticate
+# 4. Authenticate
 
 Authenticate with Google Cloud:
 
@@ -88,7 +110,7 @@ gcloud auth application-default login
 
 ---
 
-# 4. Configure Environment & BigQuery
+# 5. Configure Environment & BigQuery
 
 ## Run Environment Setup
 
@@ -120,20 +142,34 @@ This script creates:
 
 ---
 
-## Created Dataset
+# 6. Verify Dataset in BigQuery
 
-Dataset: `mcp_bakery`
+Open BigQuery Console:
 
-Tables:
+```text
+https://console.cloud.google.com/bigquery
+```
+
+Verify dataset:
+
+```text
+mcp_bakery
+```
+
+Tables created:
 
 - demographics
 - bakery_prices
 - sales_history_weekly
 - foot_traffic
 
+### Screenshot
+
+![Verify Dataset](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/6bd0a0cd7522dd11_1920.jpeg)
+
 ---
 
-# 5. Install ADK
+# 7. Install ADK
 
 Create virtual environment:
 
@@ -161,7 +197,7 @@ cd adk_agent/
 
 ---
 
-# 6. Project Structure
+# 8. Project Structure
 
 ```text
 launchmybakery/
@@ -177,7 +213,7 @@ launchmybakery/
 
 ---
 
-# 7. MCP Tool Configuration
+# 9. MCP Tool Configuration
 
 ## Maps MCP Toolset
 
@@ -223,7 +259,7 @@ Uses:
 
 ---
 
-# 8. Agent Definition
+# 10. Agent Definition
 
 The agent uses Gemini 3.1 Pro.
 
@@ -243,7 +279,7 @@ Capabilities:
 
 ---
 
-# 9. Run the Agent
+# 11. Run the Agent
 
 Navigate to:
 
@@ -266,7 +302,7 @@ http://127.0.0.1:8000
 
 ---
 
-# 10. Open ADK UI
+# 12. Open ADK UI
 
 ## Option 1
 
@@ -286,17 +322,27 @@ Use Cloud Shell Web Preview:
 2. Change port
 3. Enter `8000`
 
+### Screenshot
+
+![Change Port](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/open_adk_ui_1920.png)
+
 ---
 
-# 11. Example Prompts
+# 13. Interact with the Agent
 
-## Market Discovery
+Example prompt:
 
 ```text
 Find the zip code with the highest morning foot traffic score in Los Angeles.
 ```
 
+### Screenshot
+
+![Interact with Agent](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/5f2a48bebfc49709_1920.png)
+
 ---
+
+# 14. More Example Prompts
 
 ## Competition Analysis
 
@@ -330,7 +376,7 @@ Find the nearest Restaurant Depot and ensure drive time is under 30 minutes.
 
 ---
 
-# 12. Cleanup
+# 15. Cleanup
 
 Run cleanup script:
 
@@ -347,7 +393,7 @@ Removes:
 
 ---
 
-# 13. Key Learnings
+# 16. Key Learnings
 
 - Infrastructure automation
 - MCP integrations
