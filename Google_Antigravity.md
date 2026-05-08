@@ -430,3 +430,70 @@ Powered by:
 - Gemini
 - BigQuery
 - Google Maps
+
+# Submission Requirements
+
+Please share the following screenshots in your submission:
+
+---
+
+## 1. Screenshot of the App Running
+
+Capture the ADK application running on:
+
+```text
+http://127.0.0.1:8000
+```
+
+The screenshot should clearly show:
+
+- ADK Web Interface
+- Running application
+- Browser URL
+
+---
+
+## 2. Interaction with Relevant Question
+
+Ask the agent a relevant bakery/business intelligence question.
+
+### Example
+
+```text
+Find the zip code with the highest morning foot traffic score in Los Angeles.
+```
+
+Capture:
+
+- Your prompt
+- Agent response
+- Tool execution (if visible)
+
+---
+
+## 3. Interaction with Irrelevant Question
+
+Ask the agent an unrelated or irrelevant question.
+
+### Example
+
+```text
+What if I want to open it at the moon?
+```
+
+or
+
+```text
+Who won the football match yesterday?
+```
+
+Capture:
+
+- Your prompt
+- Agent response
+
+This helps evaluate:
+
+- Agent behavior
+- Instruction following
+- Response handling for irrelevant queries
