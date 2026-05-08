@@ -435,25 +435,10 @@ Powered by:
 
 Please share the following screenshots in your submission:
 
----
-
-## 1. Screenshot of the App Running
-
-Capture the ADK application running on:
-
-```text
-http://127.0.0.1:8000
-```
-
-The screenshot should clearly show:
-
-- ADK Web Interface
-- Running application
-- Browser URL
 
 ---
 
-## 2. Interaction with Relevant Question
+## 1. Interaction with Relevant Question
 
 Ask the agent a relevant bakery/business intelligence question.
 
@@ -471,7 +456,7 @@ Capture:
 
 ---
 
-## 3. Interaction with Irrelevant Question
+## 2. Interaction with Irrelevant Question
 
 Ask the agent an unrelated or irrelevant question.
 
